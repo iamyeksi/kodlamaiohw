@@ -16,16 +16,7 @@ namespace ClassMetotDemo
             Console.WriteLine("Sistemden müşteri silindi.");
             Console.WriteLine(musteri.Ad + " " + musteri.Soyad + " " + musteri.Yas + " " + musteri.Id + " ");
         }
-        public void Ara(Musteri musteri)
-        {
-            Console.WriteLine("Müşteri aranıyor : " + musteri.Ad);
-            Console.WriteLine(musteri.Ad + " " + musteri.Soyad + " " + musteri.Yas + " " + musteri.Id + " ");
-        }
-        public void MesajGonder(Musteri musteri)
-        {
-            Console.WriteLine("Müşteriye mesaj gönderildi! : " + musteri.Id);
-            Console.WriteLine(musteri.Ad + " " + musteri.Soyad + " " + musteri.Yas + " " + musteri.Id + " ");
-        }
+
 
     }
 }
